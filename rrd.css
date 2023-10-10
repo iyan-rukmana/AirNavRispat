@@ -1,0 +1,67 @@
+/*table input rrd*/
+.logo{
+	width: 120px;
+	cursor: pointer;
+}
+body-rrd{
+	font-family: serif;
+}
+.paraf-table{
+	margin: 0px auto;
+	margin-right: 0px;
+	tab-size: 5px;	
+}
+select{
+	border: none;
+	background: transparent;
+	width: 200px;
+	appearance: none;
+	outline: none;
+}
+input{
+	border: none;
+	background: transparent;
+	margin: 8px 0;
+	outline: none;
+}
+input[type="text"] {
+	width: 100%;
+}
+textarea{
+	resize: none;
+	outline: none;
+	border: none;
+	background: transparent;
+	text-align: justify;
+	transition: all 0.2s;
+	width: 100%;
+}
+textarea::placeholder{
+	text-align: center;
+	padding: 8px 0;
+}
+.textarea:hover{
+	cursor: pointer;
+}
+.textarea:focus{
+	cursor: text;
+}
+textarea::-webkit-scrollbar{
+	width: 0px;
+}
+option{
+	background: none;
+	position: auto;
+}
+table{
+	border-collapse: collapse;
+	font-size: 10pt;
+}
+td{
+	padding: 3px;
+	height: 5px;
+}
+th{
+	height: 25;
+}
+/*table input rrd*/

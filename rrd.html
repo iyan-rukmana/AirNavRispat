@@ -1,0 +1,302 @@
+<html>
+<head>
+        <link rel="icon" href="logo.png" type="image/x-icon">
+		<title>FORM RISPAT DIREKSI</title>
+		<link rel="stylesheet" href="rrd.css">
+</head>
+
+<body class="body-rrd">
+<!--table top-->
+    <table border="1" width="100%" align="center" id="area1">
+        <tr>
+            <td rowspan="5" width="10%" align="center"><a href="index.html"><img src="logo.png" class="logo"></a></td>
+        </tr>
+        <tr>
+            <td rowspan="4" style="width:50%; text-align: center"><h1>RISALAH RAPAT DIREKSI</h1></td>
+            <td colspan="4" align="left"><h5>No.Risalah</h5></td>
+            <td align="center">:</td>
+            <td colspan="3" align="left"><input type="text" class="tempat" placeholder="Type to Something" list="listno">
+                <datalist id="listno">
+                    <option value="RD.697/V/2023"></option>
+                </datalist></td>
+        </tr>
+        <tr>
+            <td colspan="4" align="left"><h5>Hari, Tanggal Rapat</h5></td>
+            <td align="center">:</td>
+            <td colspan="3" align=""><input type="date" placeholder=""></td>
+        </tr>
+        <tr>
+            <td colspan="4" align="left"><h5>Waktu</h5></td>
+            <td align="center">:</td>
+            <td colspan="3" align=""><input type="time" placeholder=""></td>
+        </tr>
+        <tr>
+            <td colspan="4" align="left"><h5>Tempat</h5></td>
+            <td align="center">:</td>
+            <td colspan="3" align=""><input type="text" class="tempat" placeholder="Search" list="listtempat">
+                <datalist id="listtempat">
+                    <option value="Ruang Meeting 1"></option>
+                    <option value="Ruang Meeting 2"></option>
+                    <option value="Zoom Meeting 1"></option>
+                    <option value="Zoom Meeting 2"></option>
+                </datalist></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="width:50%; text-align: center"><h3>PERUSAHAAN UMUM LEMBAGA PENYELENGGARA PELAYANAN NAVIGASI PENERBANGAN INDONESIA</h3></td>
+            <td colspan="4" align="left"><h5>Referensi</h5></td>
+            <td colspan="" align="center">:</td>
+            <td colspan="3" align=""><input type="text" class="tempat" placeholder="Type to Something" list="listreferensi">
+                <datalist id="listreferensi">
+                    <option value="697/US/KRT.02.06/V/2023"></option>
+                </datalist></td>
+        </tr>
+    </table>
+<!--table top-->
+
+<!--space-->
+    <table>
+        <td></td>
+    </table>
+<!--space-->
+
+<!--table peserta dan agenda rapat-->
+    <table border="1" width="100%">
+        <tr>
+            <th colspan="4" align="center"><h4>PESERTA DAN AGENDA RAPAT</h4></th>
+        </tr>
+        <tr>
+		    <th style="width:10%; text-align: left"><h5>Pimpinan</h5></th>
+		    <td style="width:1%; text-align: center">:</td>
+            <td style="width:85%; text-align: left"><input type="text" class="Pimpinan" placeholder="Type to Something" list="listpimpinan">
+            <datalist id="listpimpinan">
+                <option value="Pimpinan 1"></option>
+                <option value="Pimpinan 2"></option>
+                <option value="Pimpinan 3"></option>
+                <option value="Pimpinan 4"></option>
+                <option value="Pimpinan 5"></option>
+                <option value="Pimpinan 6"></option>
+            </datalist></td>
+        </tr>
+        <tr>
+		    <th style="width:10%; text-align: left"><h5>Peserta</h5></th>
+		    <td style="width:1%; text-align: center">:</td>
+            <td style="width:85%; text-align: left"><input type="text" class="form-control" placeholder="Type to Something" list="listpeserta">
+                <datalist id="listpeserta">
+                    <option value="Peserta 1"></option>
+                    <option value="Peserta 2"></option>
+                    <option value="Peserta 3"></option>
+                    <option value="Peserta 4"></option>
+                    <option value="Peserta 5"></option>
+                    <option value="Peserta 6"></option>
+                </datalist></td>
+        </tr>
+        <tr>
+		    <th style="width:10%; text-align: left"><h5>Agenda</h5></th>
+		    <td style="width:1%; text-align: center">:</td>
+            <td style="width:85%; text-align: left"><input type="text" class="form-control" placeholder="Type to Something" list="listagenda">
+                <datalist id="listagenda">
+                    <option value="Agenda 1"></option>
+                    <option value="Agenda 2"></option>
+                    <option value="Agenda 3"></option>
+                    <option value="Agenda 4"></option>
+                    <option value="Agenda 5"></option>
+                    <option value="Agenda 6"></option>
+                </datalist></td>
+        </tr>
+    </table>
+<!--table peserta dan agenda rapat-->
+
+<!--space-->
+    <table>
+        <td></td>
+    </table>
+<!--space-->
+
+<!--table point-point rapat-->
+    <table border="1" width="100%">
+        <tr>
+            <th colspan="20" align="center"><h4>POINT - POINT RAPAT</h4></th>
+        </tr>
+        <tr>
+            <th style="width:1%; text-align: center"><h5>NO.</h5></th>
+            <th style="width:10%; text-align: center"><h5>Agenda</h5></th>
+            <th style="width:10%; text-align: center"><h5>Pembahasan</h5></th>
+            <th style="width:10%; text-align: center"><h5>Kesepakatan</h5></th>
+            <th style="width:10%; text-align: center"><h5>Target Waktu</h5></th>
+            <th style="width:10%; text-align: center"><h5>PIC</h5></th>
+        </tr>
+        <tr>
+            <td style="width:1%; text-align: center"><h5>1.</h5></td>
+            <td style="width:10%; text-align: center"><h5>PENGANTAR</h5></td>
+            <td style="width:10%; text-align: left"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder="Type to Something"></textarea></td>
+            <td style="width:10%; text-align: left"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder=""></textarea></td>
+            <td style="width:10%; text-align: left"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder=""></textarea></td>
+            <td style="width:10%; text-align: left"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder=""></textarea></td>
+        </tr>
+        <tr>
+            <td style="width:1%; text-align: center"><h5>2.</h5></td>
+            <td style="width:10%; text-align: center"><h5>PEMAPARAN MATERI RAPAT</h5></td>
+            <td style="width:10%; text-align: left"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder="Type to Something"></textarea></td>
+            <td style="width:10%; text-align: left"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder=""></textarea></td>
+            <td style="width:10%; text-align: left"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder=""></textarea></td>
+            <td style="width:10%; text-align: left"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder=""></textarea></td>
+        </tr>
+        <tr>
+            <td style="width:1%; text-align: center"><h5>3.</h5></td>
+            <td style="width:10%; text-align: center"><h5>PEMBAHASAN DAN TANGGAPAN</h5></td>
+            <td style="width:10%; text-align: left"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder="Type to Something"></textarea></td>
+            <td style="width:10%; text-align: left"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder=""></textarea></td>
+            <td style="width:10%; text-align: left"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder=""></textarea></td>
+            <td style="width:10%; text-align: left"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder=""></textarea></td>
+        </tr>
+        <tr>
+            <td style="width:1%; text-align: center"><h5>4.</h5></td>
+            <td style="width:10%; text-align: center"><h5>KESIMPULAN DAN PENUTUP</h5></td>
+            <td style="width:10%; text-align: left"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder="Type to Something"></textarea></td>
+            <td style="width:10%; text-align: left"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder=""></textarea></td>
+            <td style="width:10%; text-align: left"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder=""></textarea></td>
+            <td style="width:10%; text-align: left"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder=""></textarea></td>
+        </tr>
+    </table>
+<!--table point-point rapat-->
+
+<!--sapce-->
+    <table>
+        <td></td>
+    </table>
+<!--sapce-->
+
+<!--table paraf-->
+    <table class="paraf-table" border="1" width="350px">
+        <tr>
+            <th colspan="20" align="center"><h4>PARAF</h4></th>
+        </tr>
+        <tr>
+            <th style="width:10%; text-align: center"><h5>CS</h5></th>
+            <th style="width:10%; text-align: center"><h5>DU</h5></th>
+            <th style="width:10%; text-align: center"><h5>DO</h5></th>
+            <th style="width:10%; text-align: center"><h5>DS</h5></th>
+            <th style="width:10%; text-align: center"><h5>DT</h5></th>
+            <th style="width:10%; text-align: center"><h5>DP</h5></th>
+            <th style="width:10%; text-align: center"><h5>DK</h5></th>
+        </tr>
+        <tr>
+            <th rowspan="2" style="width:10%; text-align: left"></th>
+            <th rowspan="2" style="width:10%; text-align: left"></th>
+            <th rowspan="2" style="width:10%; text-align: left"></th>
+            <th rowspan="2" style="width:10%; text-align: left"></th>
+            <th rowspan="2" style="width:10%; text-align: left"></th>
+            <th rowspan="2" style="width:10%; text-align: left"></th>
+            <th style="width:10%; text-align: left"></th>
+        </tr>
+        <!--
+        <tr>
+            <th></th>
+        </tr>
+        -->
+    </table>
+<!--table paraf-->
+
+<!--sapace-->
+    <table>
+        <td></td>
+    </table>
+    <table>
+        <td></td>
+    </table>
+    <table>
+        <td></td>
+    </table>
+    <table>
+        <td></td>
+    </table>
+    <table>
+        <td></td>
+    </table>
+    <table>
+        <td></td>
+    </table>
+    <table>
+        <td></td>
+    </table>
+    <table>
+        <td></td>
+    </table>
+    <table>
+        <td></td>
+    </table>
+    <table>
+        <td></td>
+    </table>
+    <table>
+        <td></td>
+    </table>
+    <table>
+        <td></td>
+    </table>
+    <table>
+        <td></td>
+    </table>
+    <table>
+        <td></td>
+    </table>
+    <table>
+        <td></td>
+    </table>
+<!--sapce-->
+</body>
+
+<body class="body-rrd">
+<!--table bottom-->
+    <table border="1" width="100%" align="center" id="area2">
+        <tr>
+            <th style="width: 10%; text-align: center"><h4>DIPERSIAPKAN OLEH</h4></th>
+            <th colspan="6" style="width: 90%; text-align: center"><h4>DISEPAKATI OLEH</h4></th>
+        </tr>
+        <tr>
+            <td rowspan="2" style="width:15%; text-align: center;"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder="Type to Something"></textarea></td>
+            <td style="width:15%; text-align: justify"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder=""></textarea></td>
+            <td style="width:15%; text-align: justify"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder=""></textarea></td>
+            <td style="width:15%; text-align: justify"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder=""></textarea></td>
+            <td style="width:15%; text-align: justify"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder=""></textarea></td>
+            <td style="width:15%; text-align: justify"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder=""></textarea></td>
+        </tr>
+        <tr>
+            <th rowspan="5" colspan="5" style="width:10%; text-align: justify"><textarea class="textarea" onkeypress="auto_grow(this)" onkeyup="(this);" placeholder="Type to Something"></textarea></th>
+        </tr>       
+    </table>
+<!--table bottom-->
+</body>
+
+<!--script autogrow-textarea-->
+    <script src="script.js"></script>
+    <script type="text/javascript">
+        function auto_grow(element){
+            element.style.height = "5px";
+            element.style.height = (element.scrollHeight)+"px"}
+    </script>
+<!--script autogrow-textarea-->
+
+<!--script page-only-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript">
+        function printarea1(area1){
+            var printpage = document.getElementById(area1).innerHTML;
+            var oripage = document.body.innerHTML;
+            document.body.innerHTML = printpage;
+            window.print();
+            document.body.innerHTML = oripage
+        }
+    </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript">
+        function printarea2(area2){
+            var printpage = document.getElementById(area2).innerHTML;
+            var oripage = document.body.innerHTML;
+            document.body.innerHTML = printpage;
+            window.print();
+            document.body.innerHTML = oripage
+        }
+    </script>
+<!--script page-only-->
+</html>

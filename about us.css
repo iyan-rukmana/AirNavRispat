@@ -190,3 +190,8 @@ footer{
 	font-weight: 200;
 }
 /*footer*/
+/*Responsive*/
+@media screen and(max-width: 900px) and (min-width: 600px){
+	/*add css for tablet screen size*/
+}
+/*Responsive*/

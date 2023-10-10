@@ -168,6 +168,11 @@ footer{
 	word-spacing: 2px;
 	text-transform: capitalize;
 }
+/*Responsive*/
+@media screen and(max-width: 900px) and (min-width: 600px){
+	/*add css for tablet screen size*/
+}
+/*Responsive*/
 .footer-bottom span{
 	text-transform: uppercase;
 	opacity: 4;

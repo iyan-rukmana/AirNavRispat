@@ -102,20 +102,6 @@ button:hover{
 textarea{
 	height: 90px;
 }
-/*Responsive*/
-@media only screen and (max-width: 600px){
-	.left{
-		display: none;
-	}
-	.lg-view{
-		display: none;
-	}
-}
-@media only screen and (min-width: 600px){
-	.sm-view{
-		display: none;
-	}
-}
 /*Contact Us*/
 /*footer*/
 *{
@@ -187,3 +173,21 @@ footer{
 	font-weight: 200;
 }
 /*footer*/
+/*Responsive*/
+@media only screen and (max-width: 600px){
+	.left{
+		display: none;
+	}
+	.lg-view{
+		display: none;
+	}
+}
+@media only screen and (min-width: 600px){
+	.sm-view{
+		display: none;
+	}
+}
+@media screen and(max-width: 900px) and (min-width: 600px){
+	/*add css for tablet screen size*/
+}
+/*Responsive*/
